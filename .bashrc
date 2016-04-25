@@ -124,9 +124,6 @@ fi
 ## Git/Github stuff
 #source ~/.bash/gitprompt.sh
 
-# Alias `hub` as `git`
-# For more infor, chech here https://github.com/github/hub/#aliasing
-eval "$(hub alias -s)"
 
 
 
