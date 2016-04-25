@@ -124,11 +124,15 @@ fi
 ## Git/Github stuff
 #source ~/.bash/gitprompt.sh
 
+## Backup stuff
+alias b2hd=$HOME/util/backup/2hd_ext.sh
+alias b2ceres=$HOME/util/backup/from_hd_to_ceres.sh
 
 
-
-
-
-
-
+## Anaconda stuff
+export PATHBACK=$PATH
+export CONDAPATH=$HOME/local_install/anaconda/bin
+alias condaon='export PATH=$CONDAPATH:$PATH'
+alias condaoff='export PATH=$PATHBACK'
+condaon
 
