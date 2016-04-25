@@ -1,0 +1,20 @@
+[user]
+	name = Mario De Pra
+	email = mariodepra@on.br
+[github]
+    user = depra
+[color]
+    ui = true
+[core]
+	editor = atom
+[diff]
+	mnemonicprefix = false
+[advice]
+	statusHints = false
+[alias]
+	ci = commit -m
+	st = status 
+	s = status -s
+	a = add
+	pu = push
+	pp = pull
