@@ -136,3 +136,6 @@ alias condaon='export PATH=$CONDAPATH:$PATH'
 alias condaoff='export PATH=$PATHBACK'
 condaon
 
+## Adding my python
+export PYTHONPATH=${PYTHONPATH}:$HOME/projetos/my-python-packs/
+
