@@ -136,6 +136,9 @@ alias condaon='export PATH=$CONDAPATH:$PATH'
 alias condaoff='export PATH=$PATHBACK'
 condaon
 
+## Topcat shortcut
+alias topcat=$HOME/local_install/topcat/topcat&
+
 ## Adding my python
 export PYTHONPATH=${PYTHONPATH}:$HOME/projetos/my-python-packs/
-
+export PYTHONPATH=${PYTHONPATH}:$HOME/projetos/jplus/pipeline/
